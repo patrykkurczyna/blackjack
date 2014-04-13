@@ -1,0 +1,58 @@
+package pl.edu.agh.sr.client;
+
+import java.rmi.Naming;
+import java.rmi.server.UnicastRemoteObject;
+
+import org.apache.log4j.Logger;
+
+import pl.edu.agh.sr.api.Blackjack;
+import pl.edu.agh.sr.api.UserToken;
+import pl.edu.agh.sr.api.impl.BlackjackListenerImpl;
+
+
+public class BlackjackClient {
+
+	private static final Logger logger = Logger.getLogger(BlackjackClient.class);
+	
+	// TODO: Te ustawienia powinny byc konfigurowalne w bardziej
+	// elegancki sposob -> argumenty programu, moze properties?
+	private static final String RMI_REGISTRY_ADDRESS = "rmi://127.0.0.1:1099";
+	private static final String BLACKJACK_REMOTE_OBJECT_NAME = "blackjack";
+
+	public static void main(String[] args) {
+
+		try {
+//			if (System.getSecurityManager() == null) {
+//				System.setSecurityManager(new SecurityManager());
+//			}
+			
+			// 1. Odszukujemy referencje do obiektu zdalnego - odpytujemy rejestr pod wskazanym adresem
+			Blackjack blackjack = (Blackjack) Naming
+					.lookup(RMI_REGISTRY_ADDRESS + "/" + BLACKJACK_REMOTE_OBJECT_NAME);
+			logger.debug("Mam referencje do obiektu zdalnego od serwera!");
+			
+			BlackjackListenerImpl listener = new BlackjackListenerImpl();
+			UnicastRemoteObject.exportObject(listener, 0);
+			
+			String nick = "Janek";
+			
+			// 2. Wolamy metody zdalne
+			UserToken userToken = blackjack.register(nick, listener);
+			blackjack.enterGame(userToken);
+			//noteboard.appendText(userToken, "Hej!");
+			//noteboard.appendText(userToken, "Ho!");
+			
+			
+			//System.out.println("Aktualna zawartosc tablicy: " + noteboard.getText(userToken));
+			//noteboard.unregister(userToken);
+			
+		} catch (Exception e) {
+			logger.error(e);
+			System.exit(-1);
+		}
+
+		System.exit(0);
+	}
+
+}
+

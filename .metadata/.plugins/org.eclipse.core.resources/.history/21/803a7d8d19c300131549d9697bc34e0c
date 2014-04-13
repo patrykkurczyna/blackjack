@@ -1,0 +1,26 @@
+package pl.edu.agh.sr.server.impl;
+
+import pl.edu.agh.sr.api.UserToken;
+
+public class UserTokenImpl implements UserToken{
+
+	private static final long serialVersionUID = 1L;
+	String userName;
+	Integer id;
+	
+	public UserTokenImpl(String userName, Integer id) {
+		this.id = id;
+		this. userName = userName;
+	}
+	
+	@Override
+	public String getUserName() {
+		return userName;
+	}
+
+	@Override
+	public Integer getId() {
+		return id;
+	}
+
+}

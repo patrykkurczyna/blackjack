@@ -1,0 +1,45 @@
+package pl.edu.agh.sr.server.impl;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import pl.edu.agh.sr.api.UserToken;
+
+public class PlayerImpl implements Player {
+	private UserToken userToken;
+	private int score;
+	private List<Card> cards;
+	
+	public Player(UserToken userToken) {
+		this.score = 0;
+		this.userToken = userToken;
+		this.cards = new ArrayList<Card>();
+	}
+	
+	public void addCard(Card card) {
+		this.cards.add(card);
+		this.score += card.geValue();
+	}
+	
+	public void reset() {
+		this.cards = new ArrayList<Card>();
+		this.score = 0;
+	}
+	
+	public int getScore() {
+		return this.score;
+	}
+	
+	public String getName() {
+		return this.userToken.getUserName();
+	}
+	
+	public String toString() {
+		String res = "[" + this.getName() + "]: " + this.score + "\n";
+		for (Card c : cards) {
+			res += c.getLabel();
+			res += " ";
+		}
+		return res;
+	}
+}

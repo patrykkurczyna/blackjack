@@ -1,0 +1,5 @@
+package pl.edu.agh.sr.server.impl;
+
+public class UserTokenImpl {
+
+}

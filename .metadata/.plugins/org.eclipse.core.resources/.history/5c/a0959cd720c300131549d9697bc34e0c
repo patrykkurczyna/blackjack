@@ -1,0 +1,7 @@
+package pl.edu.agh.sr.server;
+
+import pl.edu.agh.sr.api.BlackjackException;
+
+public class TableIsFullException extends BlackjackException{
+
+}

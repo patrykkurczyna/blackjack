@@ -1,0 +1,16 @@
+package pl.edu.agh.sr.server.impl;
+
+public class Table {
+	
+	private Player player;
+	private Player opponent;
+	private List<Card> 
+	
+	public Table() {
+		
+	}
+	
+	public Card pickCard() {
+		
+	}
+}

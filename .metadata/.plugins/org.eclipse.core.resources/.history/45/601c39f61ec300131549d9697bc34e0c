@@ -1,0 +1,20 @@
+package pl.edu.agh.sr.server.impl;
+
+import java.util.List;
+
+public class Table {
+	
+	private Player player;
+	private Player opponent;
+	private List<Card> deck; 
+	
+	public Table() {
+		
+		
+		deck.add(new Card("K\u2661", 10));
+	}
+	
+	public Card pickCard() {
+		return null;
+	}
+}

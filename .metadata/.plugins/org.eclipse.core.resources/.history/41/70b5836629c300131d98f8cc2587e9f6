@@ -1,0 +1,15 @@
+package pl.edu.agh.sr.api.impl;
+
+import java.rmi.RemoteException;
+
+import pl.edu.agh.sr.api.BlackjackListener;
+import pl.edu.agh.sr.api.UserToken;
+
+public class BlackjackListenerImpl implements BlackjackListener{
+
+	public void onPlayersMove(UserToken userToken, String playersChoice)
+			throws RemoteException {
+		System.out.println("Player with name --" + userToken.getUserName() +"-- says: " + playersChoice.toUpperCase());
+	}
+
+}

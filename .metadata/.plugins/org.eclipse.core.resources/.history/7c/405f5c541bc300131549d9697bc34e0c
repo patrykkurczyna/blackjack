@@ -1,0 +1,17 @@
+package pl.edu.agh.sr.server.impl;
+
+import java.util.HashMap;
+
+public class Player {
+	private String name;
+	private int score;
+	private HashMap cards;
+	
+	public Player(String name) {
+		this.name = name;
+	}
+	
+	public Player() {
+		this("COMPUTER");
+	}
+}

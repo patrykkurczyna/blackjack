@@ -1,0 +1,66 @@
+package pl.edu.agh.sr.server;
+
+import java.rmi.Naming;
+import java.rmi.registry.LocateRegistry;
+import java.rmi.registry.Registry;
+import java.rmi.server.UnicastRemoteObject;
+
+import org.apache.log4j.Logger;
+
+import pl.edu.agh.sr.api.Blackjack;
+import pl.edu.agh.sr.server.impl.BlackjackImpl;
+
+
+public class BlackjackServer {
+
+	private static final Logger logger = Logger.getLogger(BlackjackServer.class);
+	
+	// TODO: Te ustawienia powinny byc konfigurowalne w bardziej
+	// elegancki sposob -> argumenty programu, moze properties?
+	
+	private static final String RMI_REGISTRY_ADDRESS = "rmi://" + System.getProperty("java.rmi.server.hostname") + ":1099";
+	private static final String NOTEBOARD_REMOTE_OBJECT_NAME = "noteboard";
+
+	public static void main(String[] args) {
+
+		try {
+			System.out.println(RMI_REGISTRY_ADDRESS);
+			logger.debug(RMI_REGISTRY_ADDRESS);
+			// 1. Stworzmy nasz obiekt zdalny
+			BlackjackImpl impl = new BlackjackImpl();
+
+			// 2. Wyeksportuj obiekt zdalny, konsekwencje:
+			// - otwiera socket (argument 0 oznacza, ze port zostanie wybrany
+			// automatycznie przez JVM)
+			// - od tej chwili kazdy, kto ma referencje na ten obiekt moze
+			// zdalnie wolac na nim metody
+			Blackjack blackjack = (Blackjack) UnicastRemoteObject.exportObject(impl, 0);
+
+			// 3. Mamy juz referencje na obiekt zdalny, wiec teraz chcemy ja
+			// udostepnic tak, by klienci mogli ta referencje latwo odnalezc.
+			// 
+			// Referencje mozna udostepnic na wiele sposobow:
+			// - mozna ja odczytac z zserializowanego pliku,
+			// - mozna ja otrzymac jako argument wywolania (etap drugi laboratorium)
+			// - Najpowszechniejszym ze sposobow udostepnienia referencji jest zarejestrowanie
+			// jej w publicznym rejestrze (RMI registry).
+			
+			// 3a. Stworzmy rejestr RMI w procesie serwera, konsekwencje:
+			// - rejestr ma ten sam classpath co serwer ("widzi" te same klasy)
+			// - 
+			Registry createRegistry = LocateRegistry.createRegistry(1099);
+			
+			// 3b. Rejestrujemy zatem referencje w rejestrze o podanym adresie:
+			// "rmi://127.0.0.1:1099/noteboard"
+			Naming.rebind(RMI_REGISTRY_ADDRESS + "/" + NOTEBOARD_REMOTE_OBJECT_NAME, blackjack);
+			
+			// 5. Od tej chwili kliencie moga odnalezc referencje na obiekt w
+			// rejestrze i zaczac go uzywac
+			logger.debug("Tablica uruchomiona!");
+			
+		} catch (Exception e) {
+			logger.error(e);
+			System.exit(-1);
+		}
+	}
+}

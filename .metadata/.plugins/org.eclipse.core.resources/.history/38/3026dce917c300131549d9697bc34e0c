@@ -1,0 +1,30 @@
+package pl.edu.agh.sr.server.impl;
+
+import java.rmi.RemoteException;
+
+import pl.edu.agh.sr.api.Blackjack;
+import pl.edu.agh.sr.api.BlackjackException;
+import pl.edu.agh.sr.api.BlackjackListener;
+import pl.edu.agh.sr.api.UserToken;
+
+public class BlackjackImpl implements Blackjack{
+
+	public void makeChoice(UserToken userToken, boolean choice)
+			throws RemoteException, BlackjackException {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public UserToken enterGame(String nick, BlackjackListener listener)
+			throws RemoteException, BlackjackException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public void exitGame(UserToken userToken) throws RemoteException,
+			BlackjackException {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

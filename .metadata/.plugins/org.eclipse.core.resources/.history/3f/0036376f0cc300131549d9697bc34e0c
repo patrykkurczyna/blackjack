@@ -1,0 +1,21 @@
+package pl.edu.agh.sr.api;
+
+import java.rmi.Remote;
+import java.rmi.RemoteException;
+
+public interface Blackjack extends Remote {
+	public void appendText(UserToken userToken, String text)
+			throws RemoteException, NoteboardException;
+
+	public void clear(UserToken userToken) throws RemoteException,
+			NoteboardException;
+
+	public UserToken register(String nick, NoteboardListener listener)
+			throws RemoteException, NoteboardException;
+
+	public void unregister(UserToken userToken) throws RemoteException,
+			NoteboardException;
+
+	public String getText(UserToken UserToken) throws RemoteException,
+			NoteboardException;
+}

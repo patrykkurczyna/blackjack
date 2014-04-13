@@ -1,0 +1,24 @@
+package pl.edu.agh.sr.server.impl;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Player {
+	private String name;
+	private int score;
+	private List<Card> cards;
+	
+	public Player(String name) {
+		this.name = name;
+		this.score = 0;
+		this.cards = new ArrayList();
+	}
+	
+	public Player() {
+		this("COMPUTER");
+	}
+	
+	public void addCard(Card card) {
+		this.cards.add(card);
+	}
+}

@@ -1,0 +1,7 @@
+package pl.edu.agh.sr.server.impl;
+
+import pl.edu.agh.sr.api.Blackjack;
+
+public class BlackjackImpl implements Blackjack{
+
+}

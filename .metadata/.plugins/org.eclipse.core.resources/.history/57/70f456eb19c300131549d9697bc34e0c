@@ -1,0 +1,88 @@
+package pl.edu.agh.sr.server.impl;
+
+import java.rmi.RemoteException;
+import java.util.HashMap;
+
+import pl.edu.agh.sr.api.Blackjack;
+import pl.edu.agh.sr.api.BlackjackException;
+import pl.edu.agh.sr.api.BlackjackListener;
+import pl.edu.agh.sr.api.UserToken;
+
+public class BlackjackImpl implements Blackjack{
+
+	private static Integer counter = 1;
+	private HashMap<UserToken, BlackjackListener> registeredClients;
+	
+	public BlackjackImpl() {
+		registeredClients = new HashMap<UserToken, BlackjackListener>();
+	}
+	
+	public void makeChoice(UserToken userToken, boolean choice)
+			throws RemoteException, BlackjackException {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public UserToken enterGame(String nick, BlackjackListener listener)
+			throws RemoteException, BlackjackException {
+		UserToken token = new UserTokenImpl(nick, counter);
+		counter++;
+		if (registeredClients.containsKey(token)) {
+			throw new BlackjackException();
+		} else {
+			registeredClients.put(token, listener);
+			System.out.println("New client registered: " + token);
+		}
+		return token;
+	}
+
+	public void exitGame(UserToken userToken) throws RemoteException,
+			BlackjackException {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	@Override
+	public void appendText(UserToken token, String text) throws RemoteException,
+			NoteboardException {
+		if (!registeredClients.containsKey(token)) {
+			throw new NoteboardException();
+		} else {
+			buf = new StringBuffer(buf.toString() + " " + token.getId() + "." + token.getUserName() + ": " + text);
+			
+			for (Map.Entry<UserToken, NoteboardListener> registeredClient : registeredClients.entrySet()) {
+				registeredClient.getValue().onNewText(text);
+			}
+		}	
+	}
+
+	@Override
+	public void clear(UserToken token) throws RemoteException, NoteboardException {
+		if (!registeredClients.containsKey(token)) {
+			throw new NoteboardException();
+		} else {
+			buf = new StringBuffer();
+		}
+	}
+
+	@Override
+	public void unregister(UserToken token) throws RemoteException,
+			NoteboardException {
+		if (!registeredClients.containsKey(token)) {
+			throw new NoteboardException();
+		} else {
+			registeredClients.remove(token);
+		}
+	}
+
+	@Override
+	public String getText(UserToken token) throws RemoteException,
+			NoteboardException {
+		if (!registeredClients.containsKey(token)) {
+			throw new NoteboardException();
+		} else {
+			return buf.toString();
+		}
+	}
+
+}

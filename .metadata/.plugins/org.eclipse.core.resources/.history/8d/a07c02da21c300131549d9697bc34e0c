@@ -1,0 +1,16 @@
+package pl.edu.agh.sr.api;
+
+import java.rmi.Remote;
+import java.rmi.RemoteException;
+
+public interface Blackjack extends Remote {
+	public void makeChoice(UserToken userToken, boolean choice)
+			throws RemoteException, BlackjackException;
+
+	public UserToken enterGame(String nick, BlackjackListener listener)
+			throws RemoteException, BlackjackException;
+
+	public void exitGame(UserToken userToken) 
+			throws RemoteException, BlackjackException;
+
+}
