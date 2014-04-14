@@ -17,7 +17,6 @@ public class BlackjackClient {
        
         // TODO: Te ustawienia powinny byc konfigurowalne w bardziej
         // elegancki sposob -> argumenty programu, moze properties?
-        private static final String RMI_REGISTRY_ADDRESS = "rmi://127.0.0.1:1099";
         private static final String BLACKJACK_REMOTE_OBJECT_NAME = "blackjack";
  
         public static void main(String[] args) {
@@ -26,7 +25,15 @@ public class BlackjackClient {
                         if (System.getSecurityManager() == null) {
                                 System.setSecurityManager(new SecurityManager());
                         }
+                        
+                        String RMI_REGISTRY_PORT = args[1];
                        
+                        String RMI_REGISTRY_ADDRESS = "rmi://" + args[0] + ":" + args[1];
+                        
+                        int rmiRegistryPort = Integer.parseInt(RMI_REGISTRY_PORT);
+                        
+                        System.out.println(RMI_REGISTRY_PORT + " " + rmiRegistryPort + " " +RMI_REGISTRY_ADDRESS);
+                        
                         // 1. Odszukujemy referencje do obiektu zdalnego - odpytujemy rejestr pod wskazanym adresem
                         Blackjack blackjack = (Blackjack) Naming
                                         .lookup(RMI_REGISTRY_ADDRESS + "/" + BLACKJACK_REMOTE_OBJECT_NAME);

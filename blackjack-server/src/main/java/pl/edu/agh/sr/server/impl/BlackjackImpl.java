@@ -209,10 +209,10 @@ public class BlackjackImpl implements Blackjack {
 		} else {
 			gameIsOn = 0;
 			playerOnTurn = null;
-			this.table = new Table();
 			notifyAllClients("Ladies and gentlemen THE GAME HAS ENDED!");
 			notifyAllClients("Current table state: \n" + this.table.toString());
 			notifyAllClients("The winners is: " + winner);
+			this.table = new Table();
 			// exit game
 		}
 	}
