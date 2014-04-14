@@ -51,7 +51,7 @@
 						</descriptorRefs>
 						<archive>
 							<manifest>
-								<mainClass>pl.edu.agh.srclient.BlackjackClient</mainClass>
+								<mainClass>pl.edu.agh.sr.client.BlackjackClient</mainClass>
 							</manifest>
 						</archive>
 					</configuration>

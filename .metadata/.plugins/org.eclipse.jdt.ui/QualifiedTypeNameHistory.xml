@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="pl.edu.agh.sr.api.BlackjackListener"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="pl.edu.agh.sr.server.TableIsFullException"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.rmi.RemoteException"/>
+<fullyQualifiedTypeName name="java.lang.InterruptedException"/>
+<fullyQualifiedTypeName name="pl.edu.agh.sr.api.impl.BlackjackListenerImpl"/>
+<fullyQualifiedTypeName name="pl.edu.agh.sr.api.BlackjackException"/>
+<fullyQualifiedTypeName name="pl.edu.agh.sr.api.BlackjackListener"/>
 </qualifiedTypeNameHistroy>

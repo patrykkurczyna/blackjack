@@ -21,6 +21,16 @@ public class UserTokenImpl implements UserToken{
 		return id;
 	}
 	
+	//hashcode function for comparing objects
+	@Override
+	public int hashCode() {
+		final int prime = 37;
+		int result = 1;
+		result = prime * result + ((id == null) ? 0 : id.hashCode());
+		return result;
+	}
+	
+	//function for comparing two objects
 	@Override
 	public boolean equals(Object obj) {
 		if (this == obj)

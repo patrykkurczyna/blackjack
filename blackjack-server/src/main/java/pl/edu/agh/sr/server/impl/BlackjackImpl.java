@@ -13,7 +13,8 @@ public class BlackjackImpl implements Blackjack {
 
 	private Table table;
 	private static Integer counter = 1;
-	private static Integer gameIsOn = 0; //0 - off, 1 - waiting for opponent, 2 - on
+	private static Integer gameIsOn = 0; // 0 - off, 1 - waiting for opponent, 2
+											// - on, 3 - player finishes move
 	private static Map<UserToken, BlackjackListener> registeredClients;
 	private static UserToken playerOnTurn;
 	private static String winner = null;
@@ -24,16 +25,17 @@ public class BlackjackImpl implements Blackjack {
 		registeredClients = new HashMap<UserToken, BlackjackListener>();
 		this.table = new Table();
 	}
-	
+
 	public BlackjackListener getListenerByToken(UserToken ut) {
 		BlackjackListener bl = null;
 		for (Map.Entry<UserToken, BlackjackListener> registeredClient : registeredClients
 				.entrySet()) {
-			if (ut.equals(registeredClient.getKey())) bl = registeredClient.getValue();
+			if (ut.equals(registeredClient.getKey()))
+				bl = registeredClient.getValue();
 		}
 		return bl;
 	}
-	
+
 	public void notifyAllClients(String text) throws BlackjackException,
 			RemoteException {
 		System.out.println(text);
@@ -43,62 +45,59 @@ public class BlackjackImpl implements Blackjack {
 		}
 	}
 
-	public static boolean tokenIsPresent(UserToken token) {
-		if (registeredClients.keySet() == null) {
-			return false;
-		} else {
-			while (registeredClients.keySet().iterator().hasNext()) {
-				if (registeredClients.keySet().iterator().next().equals(token))
-					return true;
-			}
-			return false;
-		}
-	}
-
-	public String getTableState(UserToken userToken) throws RemoteException,
-			BlackjackException {
-		if (!tokenIsPresent(userToken)) {
+	public synchronized String getTableState(UserToken userToken)
+			throws RemoteException, BlackjackException {
+		if (!registeredClients.containsKey(userToken)) {
 			throw new BlackjackException();
 		} else {
 			return this.table.toString();
 		}
 	}
 
-	public void makeChoice(UserToken userToken, boolean choice)
+	public synchronized void makeChoice(UserToken userToken, boolean choice)
 			throws RemoteException, BlackjackException {
-		if (!tokenIsPresent(userToken)) {
+		if (!registeredClients.containsKey(userToken)) {
 			throw new BlackjackException();
-		} else if(!userToken.equals(playerOnTurn)) {
-			getListenerByToken(userToken).onPlayersMove("It's not your turn, please wait!");
+		} else if (!userToken.equals(playerOnTurn)) {
+			getListenerByToken(userToken).onPlayersMove(
+					"It's not your turn, please wait!");
 		} else {
 			String choiceString;
+			Card pickedCard = null;
 			if (choice) {
-				this.table.pickCard(userToken);
+				pickedCard = this.table.pickCard(userToken);
 				choiceString = "YES";
 				if (userToken.equals(this.table.getPlayer().getUserToken())) {
 					playerOneChoiceIsNo = false;
-				} else if (userToken.equals(this.table.getOpponent().getUserToken())) {
+				} else if (userToken.equals(this.table.getOpponent()
+						.getUserToken())) {
 					opponentChoiceIsNo = false;
 				}
 			} else {
 				choiceString = "NO";
 				if (userToken.equals(this.table.getPlayer().getUserToken())) {
 					playerOneChoiceIsNo = true;
-				} else if (userToken.equals(this.table.getOpponent().getUserToken())) {
+				} else if (userToken.equals(this.table.getOpponent()
+						.getUserToken())) {
 					opponentChoiceIsNo = true;
 				}
 			}
-			notifyAllClients("Player with name --" + userToken.getUserName()
-					+ "-- says: " + choiceString + "\n"
-					+ "Current table state: \n" + this.table.toString());
+			String saying = "Player with name --" + userToken.getUserName()
+					+ "-- says: " + choiceString + "\n";
+			if (pickedCard != null)
+				saying += ("and gets: " + pickedCard.getLabel() + "\n");
+			saying += "Current table state: \n" + this.table.toString();
+			notifyAllClients(saying);
+			gameIsOn = 3;
 		}
 	}
 
-	public UserToken register(String nick, BlackjackListener listener)
-			throws RemoteException, BlackjackException {
+	public synchronized UserToken register(String nick,
+			BlackjackListener listener) throws RemoteException,
+			BlackjackException {
 		UserToken token = new UserTokenImpl(nick, counter);
 		counter++;
-		if (tokenIsPresent(token)) {
+		if (registeredClients.containsKey(token)) {
 			throw new BlackjackException();
 		} else {
 			registeredClients.put(token, listener);
@@ -107,18 +106,18 @@ public class BlackjackImpl implements Blackjack {
 		return token;
 	}
 
-	public void unregister(UserToken token) throws RemoteException,
-			BlackjackException {
-		if (!tokenIsPresent(token)) {
+	public synchronized void unregister(UserToken token)
+			throws RemoteException, BlackjackException {
+		if (registeredClients.containsKey(token)) {
 			throw new BlackjackException();
 		} else {
 			registeredClients.remove(token);
 		}
 	}
 
-	public void enterGame(UserToken token) throws RemoteException,
+	public synchronized void enterGame(UserToken token) throws RemoteException,
 			BlackjackException {
-		if (!tokenIsPresent(token)) {
+		if (!registeredClients.containsKey(token)) {
 			throw new BlackjackException();
 		} else {
 			if (this.table.addPlayer(token)) {
@@ -126,57 +125,73 @@ public class BlackjackImpl implements Blackjack {
 				System.out.println("Client: " + token.getUserName()
 						+ " enters the game!");
 				notifyAllClients("Player with name --" + token.getUserName()
-						+ " enters the game!\n" + "Current table state: \n"
+						+ "-- enters the game!\n" + "Current table state: \n"
 						+ this.table.toString());
 			} else {
 				System.out.println("Table is full, cannot join!");
 			}
 		}
 	}
-
-//	public void exitGame(UserToken token) throws RemoteException,
-//			BlackjackException {
-//		if (!tokenIsPresent(token)) {
-//			throw new BlackjackException();
-//		} else {
-//			registeredClients.remove(token);
-//		}
-//	}
 	
-	public void game() throws RemoteException, BlackjackException, InterruptedException {
-		while (this.table.getPlayer() == null || this.table.getOpponent() == null) {
-			Thread.sleep(4000);
+	//Server method for main game
+	public void game() throws RemoteException, BlackjackException,
+			InterruptedException {
+		while (this.table.getPlayer() == null
+				|| this.table.getOpponent() == null) {
+			Thread.sleep(8000);
 			System.out.println("Waiting for the game to start...");
-			if (this.table.getPlayer() == null && this.table.getOpponent() != null) {
-				getListenerByToken(this.table.getOpponent().getUserToken()).onPlayersMove("It's not your turn, please wait!");
+			if (this.table.getPlayer() == null
+					&& this.table.getOpponent() != null) {
+				getListenerByToken(this.table.getOpponent().getUserToken())
+						.onPlayersMove("It's not your turn, please wait!");
 			} else if (this.table.getPlayer() != null) {
-				getListenerByToken(this.table.getPlayer().getUserToken()).onPlayersMove("It's not your turn, please wait!");
+				getListenerByToken(this.table.getPlayer().getUserToken())
+						.onPlayersMove("It's not your turn, please wait!");
 			}
 		}
 		startGame();
 		while (gameIsOn == 2) {
-			//Player One move
-			getListenerByToken(this.table.getPlayer().getUserToken()).onPlayersMove("It's your turn, do you want another card? (y - YES, n - NO)");
-			
+			// Player One move
+			getListenerByToken(this.table.getPlayer().getUserToken())
+					.onPlayersMove(
+							"It's your turn, do you want another card? (y - YES, n - NO, s - show current table)");
+
+			while (gameIsOn == 2) {
+				Thread.sleep(5000);
+			}
+			gameIsOn = 2;
+
 			playerOnTurn = this.table.getOpponent().getUserToken();
-			//Opponent move
-			getListenerByToken(this.table.getOpponent().getUserToken()).onPlayersMove("It's your turn, do you want another card? (y - YES, n - NO)");
-			
-			
-			if(this.table.getPlayer().lost()){
-				winner = this.table.getPlayer().getName();
-				stopGame();
-			} else if (this.table.getOpponent().lost()) {
+			// Opponent move
+			getListenerByToken(this.table.getOpponent().getUserToken())
+					.onPlayersMove(
+							"It's your turn, do you want another card? (y - YES, n - NO, s - show current table)");
+
+			while (gameIsOn == 2) {
+				Thread.sleep(5000);
+			}
+			gameIsOn = 2;
+
+			playerOnTurn = this.table.getPlayer().getUserToken();
+
+			if (this.table.getPlayer().lost()) {
 				winner = this.table.getOpponent().getName();
 				stopGame();
+			} else if (this.table.getOpponent().lost()) {
+				winner = this.table.getPlayer().getName();
+				stopGame();
 			} else if (playerOneChoiceIsNo && opponentChoiceIsNo) {
-				winner = (this.table.getPlayer().getScore() > this.table.getOpponent().getScore() ? this.table.getPlayer().getName() : this.table.getOpponent().getName());
-				if (this.table.getPlayer().getScore() == this.table.getOpponent().getScore()) winner = "DRAW";
+				winner = (this.table.getPlayer().getScore() > this.table
+						.getOpponent().getScore() ? this.table.getPlayer()
+						.getName() : this.table.getOpponent().getName());
+				if (this.table.getPlayer().getScore() == this.table
+						.getOpponent().getScore())
+					winner = "DRAW";
 				stopGame();
 			}
 		}
 	}
-	
+
 	public void startGame() throws RemoteException, BlackjackException {
 		if (gameIsOn == 2) {
 			throw new BlackjackException();
@@ -198,10 +213,12 @@ public class BlackjackImpl implements Blackjack {
 			notifyAllClients("Ladies and gentlemen THE GAME HAS ENDED!");
 			notifyAllClients("Current table state: \n" + this.table.toString());
 			notifyAllClients("The winners is: " + winner);
+			// exit game
 		}
 	}
-	
-	public int getGameStatus() throws RemoteException, BlackjackException {
+
+	public synchronized int getGameStatus() throws RemoteException,
+			BlackjackException {
 		return gameIsOn;
 	}
 

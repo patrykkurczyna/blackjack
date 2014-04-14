@@ -91,11 +91,12 @@ public class Table {
 		this(null, null);
 	}
 	
+	// adding player to game
 	public boolean addPlayer(UserToken ut){
 		if (this.player != null && this.opponent != null) {
 			return false;
 		} else {
-			if (this.player != null) {
+			if (this.player == null) {
 				this.player = new Player(ut);
 			} else {
 				this.opponent = new Player(ut);				
@@ -105,6 +106,7 @@ public class Table {
 
 	}
 	
+	// picks card
 	public Card pickCard(UserToken ut) throws BlackjackException{
 		Player tmpPlayer;
 		if (ut.equals(this.player.getUserToken())) {

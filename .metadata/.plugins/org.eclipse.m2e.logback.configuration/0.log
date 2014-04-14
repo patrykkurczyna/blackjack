@@ -2277,3 +2277,469 @@ Caused by: org.sonatype.aether.transfer.ArtifactTransferException: Failure to tr
 2014-04-13 22:58:59,741 [Worker-199] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
 2014-04-13 22:58:59,743 [Worker-199] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2014-04-13 22:58:59,744 [Worker-199] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-client\src\test\resources
+2014-04-14 15:44:49,326 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 15:44:49,332 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-04-14 15:44:49,338 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 15:44:49,338 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server\src\test\resources
+2014-04-14 15:48:06,215 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 15:48:06,221 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-04-14 15:48:06,223 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 15:48:06,223 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server\src\test\resources
+2014-04-14 15:48:51,348 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 15:48:51,349 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-04-14 15:48:51,352 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 15:48:51,352 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-client\src\test\resources
+2014-04-14 15:49:22,237 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 15:49:22,238 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-04-14 15:49:22,239 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 15:49:22,239 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-client\src\test\resources
+2014-04-14 15:49:25,236 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 15:49:25,237 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-04-14 15:49:25,240 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 15:49:25,240 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-client\src\test\resources
+2014-04-14 15:49:32,680 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 15:49:32,681 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-04-14 15:49:32,683 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 15:49:32,683 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-client\src\test\resources
+2014-04-14 15:50:00,212 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 15:50:00,213 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-04-14 15:50:00,214 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 15:50:00,215 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-client\src\test\resources
+2014-04-14 15:50:34,753 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 15:50:34,754 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-04-14 15:50:34,757 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 15:50:34,757 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server\src\test\resources
+2014-04-14 15:50:41,309 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 15:50:41,310 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-04-14 15:50:41,311 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 15:50:41,312 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server\src\test\resources
+2014-04-14 15:50:46,342 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 15:50:46,343 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-04-14 15:50:46,344 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 15:50:46,344 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server\src\test\resources
+2014-04-14 15:53:32,882 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 15:53:32,883 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-04-14 15:53:32,885 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 15:53:32,885 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server\src\test\resources
+2014-04-14 16:07:54,038 [Worker-32] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-client
+2014-04-14 16:07:54,040 [Worker-32] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s C:\Users\patrykkurczyna\.m2\settings.xml install
+2014-04-14 16:08:03,305 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 16:08:03,305 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-04-14 16:08:03,306 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 16:08:03,307 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-client\src\test\resources
+2014-04-14 16:08:48,835 [Worker-31] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: pl.edu.agh.sr.client:blackjack-client:0.0.1-SNAPSHOT @ C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-client\pom.xml.
+2014-04-14 16:08:48,926 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 16:08:48,927 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-04-14 16:08:48,928 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 16:08:48,928 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-client\src\test\resources
+2014-04-14 16:08:52,767 [Worker-32] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-client
+2014-04-14 16:08:52,767 [Worker-32] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s C:\Users\patrykkurczyna\.m2\settings.xml install
+2014-04-14 16:08:59,685 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 16:08:59,685 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-04-14 16:08:59,686 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 16:08:59,687 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-client\src\test\resources
+2014-04-14 16:11:07,905 [Worker-28] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server
+2014-04-14 16:11:07,906 [Worker-28] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s C:\Users\patrykkurczyna\.m2\settings.xml install
+2014-04-14 16:11:14,954 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 16:11:14,955 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-04-14 16:11:14,956 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 16:11:14,956 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server\src\test\resources
+2014-04-14 16:12:24,718 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 16:12:24,719 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-04-14 16:12:24,721 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 16:12:24,722 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-client\src\test\resources
+2014-04-14 16:12:36,420 [Worker-39] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-client
+2014-04-14 16:12:36,421 [Worker-39] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s C:\Users\patrykkurczyna\.m2\settings.xml install
+2014-04-14 16:12:43,291 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 16:12:43,292 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-04-14 16:12:43,293 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 16:12:43,293 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-client\src\test\resources
+2014-04-14 16:13:40,267 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 16:13:40,268 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-04-14 16:13:40,270 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 16:13:40,271 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-client\src\test\resources
+2014-04-14 16:14:11,008 [Worker-39] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-client
+2014-04-14 16:14:11,009 [Worker-39] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s C:\Users\patrykkurczyna\.m2\settings.xml install
+2014-04-14 16:14:17,928 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 16:14:17,928 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-04-14 16:14:17,929 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 16:14:17,929 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-client\src\test\resources
+2014-04-14 18:40:58,962 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: pl.edu.agh.sr.client:blackjack-client:0.0.1-SNAPSHOT @ C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-client\pom.xml.
+2014-04-14 18:41:00,829 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 18:41:00,832 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-04-14 18:41:00,838 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 18:41:00,838 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-client\src\test\resources
+2014-04-14 18:41:01,023 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 18:41:01,024 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-04-14 18:41:01,026 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 18:41:01,026 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server\src\test\resources
+2014-04-14 18:54:39,903 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 18:54:39,907 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-04-14 18:54:39,909 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 18:54:39,909 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server\src\test\resources
+2014-04-14 18:54:58,303 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 18:54:58,304 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-04-14 18:54:58,306 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 18:54:58,306 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server\src\test\resources
+2014-04-14 18:55:06,579 [Worker-17] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server
+2014-04-14 18:55:06,580 [Worker-17] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s C:\Users\patrykkurczyna\.m2\settings.xml install
+2014-04-14 18:55:14,138 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 18:55:14,138 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-04-14 18:55:14,140 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 18:55:14,140 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server\src\test\resources
+2014-04-14 18:55:57,593 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 18:55:57,595 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-04-14 18:55:57,596 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 18:55:57,596 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-client\src\test\resources
+2014-04-14 18:56:05,632 [Worker-15] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-client
+2014-04-14 18:56:05,632 [Worker-15] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s C:\Users\patrykkurczyna\.m2\settings.xml install
+2014-04-14 18:56:11,336 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 18:56:11,336 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-04-14 18:56:11,337 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 18:56:11,337 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-client\src\test\resources
+2014-04-14 18:57:38,910 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 18:57:38,911 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-04-14 18:57:38,913 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 18:57:38,914 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server\src\test\resources
+2014-04-14 18:57:44,421 [Worker-27] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server
+2014-04-14 18:57:44,421 [Worker-27] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s C:\Users\patrykkurczyna\.m2\settings.xml install
+2014-04-14 18:57:50,150 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 18:57:50,150 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-04-14 18:57:50,151 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 18:57:50,151 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server\src\test\resources
+2014-04-14 19:00:16,273 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 19:00:16,274 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-04-14 19:00:16,276 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 19:00:16,276 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server\src\test\resources
+2014-04-14 19:01:37,739 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 19:01:37,740 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-04-14 19:01:37,742 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 19:01:37,742 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server\src\test\resources
+2014-04-14 19:02:07,312 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 19:02:07,314 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-04-14 19:02:07,316 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 19:02:07,316 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server\src\test\resources
+2014-04-14 19:09:31,420 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 19:09:31,421 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-04-14 19:09:31,423 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 19:09:31,423 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server\src\test\resources
+2014-04-14 19:12:59,603 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 19:12:59,604 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-04-14 19:12:59,606 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 19:12:59,606 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server\src\test\resources
+2014-04-14 19:14:04,942 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 19:14:04,943 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-04-14 19:14:04,944 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 19:14:04,945 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-client\src\test\resources
+2014-04-14 19:14:20,287 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 19:14:20,288 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-04-14 19:14:20,290 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 19:14:20,290 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server\src\test\resources
+2014-04-14 19:14:26,305 [Worker-45] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-client
+2014-04-14 19:14:26,306 [Worker-45] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s C:\Users\patrykkurczyna\.m2\settings.xml install
+2014-04-14 19:14:37,213 [Worker-40] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server
+2014-04-14 19:14:37,213 [Worker-40] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s C:\Users\patrykkurczyna\.m2\settings.xml install
+2014-04-14 19:14:42,968 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 19:14:42,968 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-04-14 19:14:42,969 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 19:14:42,970 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server\src\test\resources
+2014-04-14 19:22:59,323 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 19:22:59,324 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-04-14 19:22:59,325 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 19:22:59,326 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server\src\test\resources
+2014-04-14 19:23:20,955 [Worker-33] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-client
+2014-04-14 19:23:20,955 [Worker-33] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s C:\Users\patrykkurczyna\.m2\settings.xml install
+2014-04-14 19:23:26,700 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 19:23:26,700 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-04-14 19:23:26,701 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 19:23:26,701 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-client\src\test\resources
+2014-04-14 19:24:48,981 [Worker-33] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server
+2014-04-14 19:24:48,981 [Worker-33] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s C:\Users\patrykkurczyna\.m2\settings.xml install
+2014-04-14 19:24:54,703 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 19:24:54,704 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-04-14 19:24:54,705 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 19:24:54,705 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server\src\test\resources
+2014-04-14 19:25:42,041 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 19:25:42,042 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-04-14 19:25:42,043 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 19:25:42,043 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server\src\test\resources
+2014-04-14 19:25:51,893 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 19:25:51,894 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-04-14 19:25:51,896 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 19:25:51,896 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server\src\test\resources
+2014-04-14 19:25:59,913 [Worker-61] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server
+2014-04-14 19:25:59,913 [Worker-61] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s C:\Users\patrykkurczyna\.m2\settings.xml install
+2014-04-14 19:26:05,699 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 19:26:05,700 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-04-14 19:26:05,701 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 19:26:05,701 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server\src\test\resources
+2014-04-14 19:27:33,850 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 19:27:33,852 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-04-14 19:27:33,853 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 19:27:33,853 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-client\src\test\resources
+2014-04-14 19:27:47,811 [Worker-62] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-client
+2014-04-14 19:27:47,812 [Worker-62] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s C:\Users\patrykkurczyna\.m2\settings.xml install
+2014-04-14 19:27:53,569 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 19:27:53,570 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-04-14 19:27:53,571 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 19:27:53,571 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-client\src\test\resources
+2014-04-14 19:29:32,141 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 19:29:32,142 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-04-14 19:29:32,143 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 19:29:32,144 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server\src\test\resources
+2014-04-14 19:29:39,056 [Worker-62] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server
+2014-04-14 19:29:39,056 [Worker-62] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s C:\Users\patrykkurczyna\.m2\settings.xml install
+2014-04-14 19:29:44,784 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 19:29:44,790 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-04-14 19:29:44,791 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 19:29:44,791 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server\src\test\resources
+2014-04-14 19:30:34,271 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 19:30:34,272 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-04-14 19:30:34,273 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 19:30:34,273 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-client\src\test\resources
+2014-04-14 19:30:43,680 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 19:30:43,681 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-04-14 19:30:43,682 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 19:30:43,682 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-client\src\test\resources
+2014-04-14 19:30:54,888 [Worker-62] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-client
+2014-04-14 19:30:54,888 [Worker-62] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s C:\Users\patrykkurczyna\.m2\settings.xml install
+2014-04-14 19:31:00,583 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 19:31:00,584 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-04-14 19:31:00,585 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 19:31:00,585 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-client\src\test\resources
+2014-04-14 19:32:32,671 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 19:32:32,672 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-04-14 19:32:32,673 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 19:32:32,674 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server\src\test\resources
+2014-04-14 19:33:07,404 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 19:33:07,405 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-04-14 19:33:07,406 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 19:33:07,407 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server\src\test\resources
+2014-04-14 19:33:34,075 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 19:33:34,076 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-04-14 19:33:34,077 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 19:33:34,078 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server\src\test\resources
+2014-04-14 19:33:39,639 [Worker-67] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server
+2014-04-14 19:33:39,639 [Worker-67] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s C:\Users\patrykkurczyna\.m2\settings.xml install
+2014-04-14 19:33:45,408 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 19:33:45,409 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-04-14 19:33:45,410 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 19:33:45,410 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server\src\test\resources
+2014-04-14 19:33:58,333 [Worker-75] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-client
+2014-04-14 19:33:58,333 [Worker-75] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s C:\Users\patrykkurczyna\.m2\settings.xml install
+2014-04-14 19:34:04,383 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 19:34:04,383 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-04-14 19:34:04,384 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 19:34:04,384 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-client\src\test\resources
+2014-04-14 19:37:20,543 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 19:37:20,544 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-04-14 19:37:20,545 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 19:37:20,546 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-client\src\test\resources
+2014-04-14 19:37:34,300 [Worker-82] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-client
+2014-04-14 19:37:34,300 [Worker-82] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s C:\Users\patrykkurczyna\.m2\settings.xml install
+2014-04-14 19:37:40,066 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 19:37:40,067 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-04-14 19:37:40,067 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 19:37:40,068 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-client\src\test\resources
+2014-04-14 19:41:53,735 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 19:41:53,736 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-04-14 19:41:53,738 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 19:41:53,738 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server\src\test\resources
+2014-04-14 19:41:59,246 [Worker-74] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server
+2014-04-14 19:41:59,247 [Worker-74] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s C:\Users\patrykkurczyna\.m2\settings.xml install
+2014-04-14 19:42:05,167 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 19:42:05,167 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-04-14 19:42:05,168 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 19:42:05,168 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server\src\test\resources
+2014-04-14 19:47:53,071 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 19:47:53,072 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-04-14 19:47:53,074 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 19:47:53,074 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server\src\test\resources
+2014-04-14 19:52:47,214 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 19:52:47,215 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-04-14 19:52:47,216 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 19:52:47,217 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server\src\test\resources
+2014-04-14 19:53:40,649 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 19:53:40,650 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-04-14 19:53:40,652 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 19:53:40,652 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server\src\test\resources
+2014-04-14 19:54:52,462 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 19:54:52,463 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-04-14 19:54:52,464 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 19:54:52,465 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server\src\test\resources
+2014-04-14 19:55:03,636 [Worker-90] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server
+2014-04-14 19:55:03,636 [Worker-90] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s C:\Users\patrykkurczyna\.m2\settings.xml install
+2014-04-14 19:55:09,473 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 19:55:09,473 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-04-14 19:55:09,474 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 19:55:09,474 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server\src\test\resources
+2014-04-14 19:57:52,074 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 19:57:52,075 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-04-14 19:57:52,076 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 19:57:52,077 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server\src\test\resources
+2014-04-14 20:00:11,553 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 20:00:11,554 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-04-14 20:00:11,556 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 20:00:11,556 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server\src\test\resources
+2014-04-14 20:01:53,850 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 20:01:53,851 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-04-14 20:01:53,852 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 20:01:53,853 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server\src\test\resources
+2014-04-14 20:02:07,669 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 20:02:07,670 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-04-14 20:02:07,672 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 20:02:07,672 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server\src\test\resources
+2014-04-14 20:02:14,389 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 20:02:14,390 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-04-14 20:02:14,391 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 20:02:14,391 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server\src\test\resources
+2014-04-14 20:02:22,267 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 20:02:22,268 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-04-14 20:02:22,269 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 20:02:22,270 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server\src\test\resources
+2014-04-14 20:02:31,523 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 20:02:31,524 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-04-14 20:02:31,525 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 20:02:31,525 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server\src\test\resources
+2014-04-14 20:02:40,336 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 20:02:40,337 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-04-14 20:02:40,338 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 20:02:40,339 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server\src\test\resources
+2014-04-14 20:02:48,483 [Worker-86] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server
+2014-04-14 20:02:48,483 [Worker-86] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s C:\Users\patrykkurczyna\.m2\settings.xml install
+2014-04-14 20:02:54,258 [Worker-104] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 20:02:54,258 [Worker-104] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-04-14 20:02:54,259 [Worker-104] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 20:02:54,259 [Worker-104] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server\src\test\resources
+2014-04-14 20:04:25,195 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 20:04:25,196 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-04-14 20:04:25,197 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 20:04:25,197 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server\src\test\resources
+2014-04-14 20:04:30,981 [Worker-104] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 20:04:30,982 [Worker-104] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-04-14 20:04:30,984 [Worker-104] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 20:04:30,984 [Worker-104] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server\src\test\resources
+2014-04-14 20:05:57,115 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 20:05:57,116 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-04-14 20:05:57,117 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 20:05:57,117 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server\src\test\resources
+2014-04-14 20:06:04,142 [Worker-99] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server
+2014-04-14 20:06:04,142 [Worker-99] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s C:\Users\patrykkurczyna\.m2\settings.xml install
+2014-04-14 20:06:09,913 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 20:06:09,913 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-04-14 20:06:09,914 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 20:06:09,914 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server\src\test\resources
+2014-04-14 20:08:05,914 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 20:08:05,915 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-04-14 20:08:05,916 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 20:08:05,916 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server\src\test\resources
+2014-04-14 20:08:36,939 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 20:08:36,940 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-04-14 20:08:36,941 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 20:08:36,941 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-client\src\test\resources
+2014-04-14 20:08:49,549 [Worker-109] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-client
+2014-04-14 20:08:49,550 [Worker-109] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s C:\Users\patrykkurczyna\.m2\settings.xml install
+2014-04-14 20:08:59,036 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 20:08:59,036 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-04-14 20:08:59,037 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 20:08:59,037 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-client\src\test\resources
+2014-04-14 20:09:04,253 [Worker-108] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server
+2014-04-14 20:09:04,253 [Worker-108] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s C:\Users\patrykkurczyna\.m2\settings.xml install
+2014-04-14 20:09:10,032 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 20:09:10,033 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-04-14 20:09:10,034 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 20:09:10,034 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server\src\test\resources
+2014-04-14 20:15:51,450 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 20:15:51,451 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-04-14 20:15:51,452 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 20:15:51,453 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server\src\test\resources
+2014-04-14 20:15:59,796 [Worker-99] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server
+2014-04-14 20:15:59,796 [Worker-99] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s C:\Users\patrykkurczyna\.m2\settings.xml install
+2014-04-14 20:16:05,723 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 20:16:05,723 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-04-14 20:16:05,724 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 20:16:05,724 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server\src\test\resources
+2014-04-14 20:16:25,980 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 20:16:25,981 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-04-14 20:16:25,982 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 20:16:25,982 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server\src\test\resources
+2014-04-14 20:16:31,395 [Worker-114] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server
+2014-04-14 20:16:31,395 [Worker-114] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s C:\Users\patrykkurczyna\.m2\settings.xml install
+2014-04-14 20:16:37,132 [Worker-113] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 20:16:37,132 [Worker-113] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-04-14 20:16:37,133 [Worker-113] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 20:16:37,133 [Worker-113] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server\src\test\resources
+2014-04-14 20:21:59,631 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 20:21:59,632 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-04-14 20:21:59,633 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 20:21:59,633 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server\src\test\resources
+2014-04-14 20:22:08,898 [Worker-102] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server
+2014-04-14 20:22:08,898 [Worker-102] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s C:\Users\patrykkurczyna\.m2\settings.xml install
+2014-04-14 20:22:14,680 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 20:22:14,680 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-04-14 20:22:14,681 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 20:22:14,681 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server\src\test\resources
+2014-04-14 20:23:26,353 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 20:23:26,354 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-04-14 20:23:26,356 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 20:23:26,356 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server\src\test\resources
+2014-04-14 20:23:41,007 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 20:23:41,008 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-04-14 20:23:41,009 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 20:23:41,009 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server\src\test\resources
+2014-04-14 20:24:30,275 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 20:24:30,276 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-04-14 20:24:30,278 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 20:24:30,278 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server\src\test\resources
+2014-04-14 20:24:34,812 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 20:24:34,813 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-04-14 20:24:34,814 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 20:24:34,814 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server\src\test\resources
+2014-04-14 20:24:46,493 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 20:24:46,494 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-04-14 20:24:46,495 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 20:24:46,495 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server\src\test\resources
+2014-04-14 20:24:54,430 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 20:24:54,431 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-04-14 20:24:54,433 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 20:24:54,433 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server\src\test\resources
+2014-04-14 20:24:58,705 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 20:24:58,706 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-04-14 20:24:58,707 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 20:24:58,707 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server\src\test\resources
+2014-04-14 20:25:19,999 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 20:25:20,000 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-04-14 20:25:20,001 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 20:25:20,001 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server\src\test\resources
+2014-04-14 20:25:43,842 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 20:25:43,843 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-04-14 20:25:43,844 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 20:25:43,844 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server\src\test\resources
+2014-04-14 20:26:04,385 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 20:26:04,386 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-04-14 20:26:04,388 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 20:26:04,388 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server\src\test\resources
+2014-04-14 20:27:20,989 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 20:27:20,990 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-04-14 20:27:20,991 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 20:27:20,992 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server\src\test\resources
+2014-04-14 20:27:42,152 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 20:27:42,153 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-04-14 20:27:42,154 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 20:27:42,154 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-client\src\test\resources
+2014-04-14 20:27:51,317 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 20:27:51,317 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-04-14 20:27:51,319 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 20:27:51,319 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-client\src\test\resources
+2014-04-14 20:29:57,344 [Worker-113] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 20:29:57,345 [Worker-113] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-04-14 20:29:57,346 [Worker-113] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 20:29:57,346 [Worker-113] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-client\src\test\resources
+2014-04-14 20:30:41,343 [Worker-113] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 20:30:41,343 [Worker-113] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-04-14 20:30:41,345 [Worker-113] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 20:30:41,345 [Worker-113] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server\src\test\resources
+2014-04-14 20:30:52,833 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 20:30:52,834 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-04-14 20:30:52,835 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-04-14 20:30:52,835 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patrykkurczyna\Downloads\blackjack\blackjack-server\src\test\resources
